@@ -5,6 +5,12 @@ import java.util.Scanner;
 
 public class shooting {
 
+    public static int[] isMoreThanThen(int[] ourArray) {
+
+
+        throw new IllegalArgumentException("not implemented yet");
+    }
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
