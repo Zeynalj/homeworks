@@ -1,4 +1,4 @@
-package udemyExercies;
+package udemyExercies.SimpleCalculator;
 
 public class SimpleCalculator {
 

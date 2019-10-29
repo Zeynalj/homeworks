@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class GenerateCharacter {
 
-    public static String generateRandom() {
+    public String generateRandom() {
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         Random random = new Random();
         char code = alphabet.charAt(random.nextInt(alphabet.length()));
@@ -16,7 +16,8 @@ public class GenerateCharacter {
     }
 
     public static void main(String[] args) {
-        generateRandom();
+        GenerateCharacter newObject = new GenerateCharacter();
+        newObject.generateRandom();
     }
 
 

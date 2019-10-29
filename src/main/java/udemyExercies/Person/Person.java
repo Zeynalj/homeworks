@@ -1,4 +1,4 @@
-package udemyExercies;
+package udemyExercies.Person;
 
     public class Person {
         private String firstName;
